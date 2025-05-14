@@ -5,7 +5,7 @@ const app = express();
 const streams = {
   '18456': 'https://anasvirat.github.io/PHP/513.m3u8',
   '18457': 'https://anasvirat.github.io/PHP/500.m3u8',
-  '18457': 'https://allinonereborn.com/ipl92.m3u8/?id=18456'
+  '18458': 'https://allinonereborn.com/ipl92.m3u8/?id=18456'
 };
 
 app.get('/Box.m3u8', (req, res) => {
