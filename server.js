@@ -4,10 +4,11 @@ const app = express();
 
 const streams = {
   '18456': 'https://anasvirat.github.io/PHP/513.m3u8',
+  '18457': 'https://anasvirat.github.io/PHP/500.m3u8',
   '18457': 'https://anasvirat.github.io/PHP/500.m3u8'
 };
 
-app.get('/ipl92.m3u8', (req, res) => {
+app.get('/Box.m3u8', (req, res) => {
   const id = req.query.id;
   const streamUrl = streams[id];
 
