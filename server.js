@@ -6,7 +6,8 @@ const streams = {
   '18456': 'https://anasvirat.github.io/PHP/513.m3u8',
   '18457': 'https://anasvirat.github.io/PHP/500.m3u8',
   '18458': 'https://allinonereborn.com/ipl92.m3u8/?id=18456',
-  '18745': 'https://m3u.8088y.site/X/Box.php?id=379755'
+  '18745': 'https://m3u.8088y.site/X/Box.php?id=379755',
+  'Tamil': 'https://m3u.8088y.site/X/Box.php?id=497418'
 };
 
 app.get('/Box.m3u8', (req, res) => {
