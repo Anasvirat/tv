@@ -7,7 +7,9 @@ const streams = {
   '18457': 'https://anasvirat.github.io/PHP/500.m3u8',
   '18458': 'https://allinonereborn.com/ipl92.m3u8/?id=18456',
   '18745': 'https://m3u.8088y.site/X/Box.php?id=379755',
-  'Tamil': 'https://m3u.8088y.site/X/Box.php?id=497418'
+  'Tamil': 'https://m3u.8088y.site/X/Box.php?id=497418',
+  '18746': 'https://8088y.site/Api/JioTV/app/ts_live_2853.m3u8',
+  '18746': 'https://8088y.site/Api/JioTV/app/ts_live_550.m3u8'
 };
 
 app.get('/Box.m3u8', (req, res) => {
