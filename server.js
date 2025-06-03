@@ -9,7 +9,7 @@ const streams = {
   '18745': 'https://m3u.8088y.site/X/Box.php?id=379755',
   'Tamil': 'https://m3u.8088y.site/X/Box.php?id=497418',
   '18746': 'https://8088y.site/Api/JioTV/app/ts_live_2853.m3u8',
-  '18747': 'https://8088y.site/Api/JioTV/app/ts_live_550.m3u8'
+  '18747': 'https://ts-j8bh.onrender.com/box.ts?id=4'
 };
 
 app.get('/Box.m3u8', (req, res) => {
